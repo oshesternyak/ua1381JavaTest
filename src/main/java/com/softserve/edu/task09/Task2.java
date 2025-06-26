@@ -47,18 +47,13 @@ public class Task2 {
         for (int num : list) {
             sum = sum + num;
         }
-        return sum/ list.size();
-    }
-
-    public List<Integer> removeAllEven(List<Integer> list) {
-
-        return new ArrayList<>();
+        return sum / list.size();
     }
 
     public boolean containsNum(List<Integer> list, int num) {
-        for (int i = 0; i <list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             int n = list.get(i);
-            if (n == num){
+            if (n == num) {
                 return true;
             }
 
@@ -66,7 +61,5 @@ public class Task2 {
         return false;
     }
 
-    public void sort(List<Integer> list) {
 
-    }
 }

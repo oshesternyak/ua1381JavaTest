@@ -31,8 +31,8 @@ class Task2Test {
         list.add(5);
         list.add(6);
         list.add(29);
-       int actual= task2.findMin(list);
-       Assertions.assertEquals(5, actual);
+        int actual = task2.findMin(list);
+        Assertions.assertEquals(5, actual);
     }
 
     @Test
@@ -59,10 +59,6 @@ class Task2Test {
     }
 
 
-//    @Test
-//    void removeAllEven() {
-//    }
-
     @Test
     void containsNum() {
         List<Integer> list = new ArrayList<>();
@@ -73,7 +69,5 @@ class Task2Test {
 
     }
 
-    @Test
-    void sort() {
-    }
+
 }
